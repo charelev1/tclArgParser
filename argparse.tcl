@@ -1,6 +1,5 @@
 package provide argparse 1.0
 
-namespace eval argparse {
 
 proc argParse {} \
 {
@@ -44,6 +43,4 @@ proc getFlagArgs {in_flag parseFunc} \
         }
     }
   return noexists
-}
-
 }
